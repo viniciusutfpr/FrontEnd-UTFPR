@@ -50,3 +50,60 @@
     font-size: 4rem;
     font-family: "Playfair Display", serif;
 }
+
+#quem-somos {
+    padding: 4rem 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+#quem-somos h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quem-somos-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quem-somos-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+#investimentos { 
+    background-color: black;
+    padding: 6rem 0;
+}
+
+.tipo-investimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.tipo-investimento li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tipo-investimento li p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.titulo-content  {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
