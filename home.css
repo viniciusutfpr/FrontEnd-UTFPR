@@ -8,6 +8,10 @@
     cursor: pointer;
 }
 
+.home-header ul li a:hover {
+    color: red;
+}
+
 .home-header ul {
     display: flex;
     gap: 5rem;
