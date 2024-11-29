@@ -1,28 +1,12 @@
-.home-header {
-    background-color: #4516b1;
-}
-
-.home-header ul li {
-    color: white;
-    cursor: pointer;
-}
-
-.home-header ul {
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    padding: 2rem 0;
-}
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;         
     padding: 20px;
+}
+
+section {
+    margin-top: 10vh !important;
 }
 
 section > form {
@@ -33,19 +17,45 @@ section > form {
 
 section > h1 {
     color: #0f0230;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Playfair Display", serif;
-    margin-bottom: 3vh;
+    margin-bottom: 8vh;
+    text-align: center;
 }
 
 div > label {
     font-size: 5vh;
-    margin-right: 1.5vh;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 24vh;
+    margin-bottom: 4vh;
 }
 
 div > input {
+    background: #f1ecec;
     border-color: #4516b1;
     border-radius: 4rem;
-    height: 3.5vh;
-    width: 10vw;
+    height: 5vh;
+    width: 100%;
+}
+
+.estados {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+}
+
+#estado {
+    color: white;
+    background-color: black;
+    height: 5vh;
+}
+
+#btn-enviar {
+    background-color: #4516b1;
+    color: white;
+    height: 6vh;
+}
+
+#btn-enviar:hover {
+    background-color: darkblue;
 }
