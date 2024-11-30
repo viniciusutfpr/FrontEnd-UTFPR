@@ -1,12 +1,17 @@
 main {
     display: flex;
+    background-color: #f7f7f7;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
 section {
+    background-color: white;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 5px;
     margin-top: 10vh !important;
+    padding: 50px !important;
 }
 
 section > form {
@@ -16,27 +21,29 @@ section > form {
 }
 
 section > h1 {
+    border-bottom: 2px solid #e0e0e0;
     color: #0f0230;
     font-size: 3rem;
     font-family: "Playfair Display", serif;
-    margin-bottom: 8vh;
+    margin-bottom: 6vh;
+    padding-bottom: 2vh;
     text-align: center;
 }
 
 div > label {
     font-size: 5vh;
     font-family: "Montserrat", sans-serif;
-    margin-right: 24vh;
+    margin-right: 31vh;
     margin-bottom: 4vh;
 }
 
 div > input {
-    background: #f1ecec;
-    border-color: #4516b1;
-    border-radius: 4rem;
+    background: #f5f8ff;
+    border-color: #f3f3f3;
+    border-radius: 5px;
     padding-left: 10px;
-    height: 5vh;
-    width: 100%;
+    height: 4vh;
+    width: 31vw;
 }
 
 #btn-enviar {
