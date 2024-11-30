@@ -39,18 +39,6 @@ div > input {
     width: 100%;
 }
 
-.estados {
-    display: flex;
-    align-items: baseline;
-    width: 100%;
-}
-
-#estado {
-    color: white;
-    background-color: black;
-    height: 5vh;
-}
-
 #btn-enviar {
     background-color: #4516b1;
     color: white;
