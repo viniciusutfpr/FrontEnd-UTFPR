@@ -37,9 +37,6 @@ A estrutura do projeto é organizada em várias etapas e recursos para garantir 
 ### 2. **Plataforma Online**
    - Ambiente digital acessível, onde o conteúdo será disponibilizado de forma simples e interativa. A plataforma também oferece suporte aos usuários para esclarecer dúvidas.
 
-### 3. **Fale conosco**
-   - Formulário para tirar dúvidas.
-
 ---
 
 ## 📈 **Objetivos a Longo Prazo**
