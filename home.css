@@ -1,18 +1,17 @@
-
 .home-header {
     background-color: #4516b1;
-}
-
-.home-header ul li {
+  }
+  
+  .home-header ul li {
     color: white;
     cursor: pointer;
-}
-
-.home-header ul li a:hover {
+  }
+  
+  .home-header ul li a:hover {
     color: red;
-}
-
-.home-header ul {
+  }
+  
+  .home-header ul {
     display: flex;
     gap: 5rem;
     justify-content: center;
@@ -20,9 +19,9 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     padding: 2rem 0;
-}
-
-#main {
+  }
+  
+  #main {
     background-image: url("./img/fundoprincipal.jpg");
     background-size: cover;
     background-position: center;
@@ -31,9 +30,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#main::before {
+  }
+  
+  #main::before {
     content: "";
     position: absolute;
     top: 0;
@@ -42,96 +41,96 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
-}
-
-#main > * {
+  }
+  
+  #main > * {
     position: relative;
     z-index: 2;
-}
-
-#main h1 {
+  }
+  
+  #main h1 {
     color: white;
     font-size: 4rem;
     font-family: "Playfair Display", serif;
-}
-
-#quem-somos {
+  }
+  
+  #quem-somos {
     padding: 4rem 20rem;
     display: flex;
     flex-direction: column;
-    gap: 8rem;
-}
-
-#quem-somos h2 {
+    gap: 2rem;
+  }
+  
+  #quem-somos h2 {
     font-family: "Playfair Display", serif;
     font-size: 4rem;
     text-align: center;
     font-weight: bold;
-}
-
-.quem-somos-content {
+  }
+  
+  .quem-somos-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.quem-somos-content p {
+  }
+  
+  .quem-somos-content p {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
-}
-
-#investimentos { 
+  }
+  
+  #investimentos {
     background-color: black;
     padding: 6rem 0;
-}
-
-.tipo-investimento {
+  }
+  
+  .tipo-investimento {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
     margin-top: 5rem;
-}
-
-.tipo-investimento li {
+  }
+  
+  .tipo-investimento li {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.tipo-investimento li p {
+  }
+  
+  .tipo-investimento li p {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     width: 80vw;
     color: white;
     margin-left: 5rem;
     margin-top: 0.5rem;
-    }
-
-.tipo-investimento-item {
+  }
+  
+  .tipo-investimento-item {
     display: flex;
     justify-content: center;
     width: 100%;
-}
-
-.tipo-investimento-item img {
+  }
+  
+  .tipo-investimento-item img {
     width: 5rem;
-}
-
-.tipo-investimento-item h2 {
+  }
+  
+  .tipo-investimento-item h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 4rem;
     color: white;
-}
-
-.titulo-content  {
+  }
+  
+  .titulo-content {
     font-family: "Montserrat", sans-serif;
     font-size: 6rem;
     color: white;
     text-align: center;
-}
-
-#footer {
+  }
+  
+  #footer {
     background-color: #4516b1;
     color: white;
     padding: 3rem 0;
@@ -139,9 +138,39 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-#footer p {
+  }
+  
+  #footer p {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-}
+  }
+  
+  #galeria {
+    padding: 5rem;
+  }
+  
+  #galeria h2 {
+    text-align: center;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 6rem;
+  }
+  
+  .galeria-imagens {
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    align-items: center;
+  }
+  
+  .galeria-imagens img {
+    width: 20rem;
+  }
+  
+  .ods {
+    max-width: 10rem;
+    margin: 0 auto;
+  }
+  
